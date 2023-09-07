@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "Computadora de la prehistoria",
+		"description": "Computadora de hace 50 años de antiguedad",
+		"price": 120000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc003",
+		"stock": 1
+	},
+	{
+		"id": 2,
+		"title": "Computadora Intel",
+		"description": "Computadora Intel, i7 11700k",
+		"price": 92000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc006",
+		"stock": 13
+	},
+	{
+		"id": 3,
+		"title": "Computadora AMD",
+		"description": "Computadora AMD, Ryzen 5 3400g",
+		"price": 87000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc001",
+		"stock": 8
+	},
+	{
+		"id": 4,
+		"title": "Computadora Intel",
+		"description": "Computadora Intel, i5 9500",
+		"price": 63000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc002",
+		"stock": 13
+	}
+]
