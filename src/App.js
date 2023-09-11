@@ -9,13 +9,19 @@ app.use(express.urlencoded({extended:true}));
 
 app.get("/products", async (req, res) => {
     try {
+        const limit = parseInt(req.query.limit);
         const products = await productManager.getProducts();
-        res.json(products);
+
+        if ((limit)) {
+            const limitProducts = products.slice(0, limit);
+            res.json(limitProducts);
+        } else {
+            res.json(products);
+        }
     } catch (error) {
-        ("Error al obtener los productos");
+        console.log("Error al obtener los productos");
     }
 });
-
 
 app.get("/products/:productId", async (req, res) => {
     try {
